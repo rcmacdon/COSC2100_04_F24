@@ -44,6 +44,8 @@ namespace Demo01
             lblSaveMessage.Left = btnShowLabel.Left - 20 - lblSaveMessage.Width;
 
             this.Controls.Add(lblSaveMessage);
+
+            // yeah it worked
         }
     }
 }
