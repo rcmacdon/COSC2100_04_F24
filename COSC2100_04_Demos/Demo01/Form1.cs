@@ -19,11 +19,31 @@ namespace Demo01
 
         private void btnHelloWorld_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Hello World", "Clint was Here", MessageBoxButtons.YesNoCancel) == DialogResult.Yes)
-            {
-                btnHelloWorld.Text = "Yeah!";
-            }
+            DialogResult myResult = MessageBox.Show("Hello World", "Clint was Here", MessageBoxButtons.YesNoCancel);
+            // int i = 4;
 
+            if (myResult == DialogResult.Yes) btnHelloWorld.Text = "Yeah!";
+            else if (myResult == DialogResult.No) btnHelloWorld.Text = "Neah!";
+            else btnHelloWorld.Text = "Cancelled!";
+
+
+        }
+
+        private void btnShowLabel_Click(object sender, EventArgs e)
+        {
+            CreateSaveLabel("Save Successful!");
+        }
+
+        private void CreateSaveLabel(String labelText)
+        {
+            Label lblSaveMessage = new Label();
+            lblSaveMessage.Text = labelText;
+            
+            lblSaveMessage.Size = new Size(100,40);
+            lblSaveMessage.Top = btnShowLabel.Top + btnShowLabel.Height/2;
+            lblSaveMessage.Left = btnShowLabel.Left - 20 - lblSaveMessage.Width;
+
+            this.Controls.Add(lblSaveMessage);
         }
     }
 }
