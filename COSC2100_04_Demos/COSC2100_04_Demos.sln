@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_w02b_ThemedMonths", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_w02c_ColorPicker", "Demo_w02c_ColorPicker\Demo_w02c_ColorPicker.csproj", "{E65B2002-46C6-47EB-B626-B039F5B684E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_w03a_GuessTheNumber", "Demo_w03a_GuessTheNumber\Demo_w03a_GuessTheNumber.csproj", "{2A6718C6-19BB-42A5-B782-6442A1E97C06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E65B2002-46C6-47EB-B626-B039F5B684E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E65B2002-46C6-47EB-B626-B039F5B684E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E65B2002-46C6-47EB-B626-B039F5B684E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A6718C6-19BB-42A5-B782-6442A1E97C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A6718C6-19BB-42A5-B782-6442A1E97C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A6718C6-19BB-42A5-B782-6442A1E97C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A6718C6-19BB-42A5-B782-6442A1E97C06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
