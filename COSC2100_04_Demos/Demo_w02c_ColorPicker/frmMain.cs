@@ -7,17 +7,14 @@ using static Demo_w02c_ColorPicker.Settings;
 
 namespace Demo_w02c_ColorPicker
 {
-    
+
     public partial class frmMain : Form
     {
-
-  
-
         #region Startup
         public frmMain()
         {
             InitializeComponent();
-           }
+        }
 
         private void frmMain_Load(object sender, EventArgs e)
         {
@@ -49,12 +46,12 @@ namespace Demo_w02c_ColorPicker
 
         private void ClearForm()
         {
-            foreach(Label label in Settings.labels) this.Controls.Remove(label);
+            foreach (Label label in Settings.labels) this.Controls.Remove(label);
         }
-       
+
         private void CreateSquares(int numSquares)
         {
-            
+
             for (int y = 0; y < numSquares; y++)
             {
                 for (int x = 0; x < numSquares; x++)
@@ -85,57 +82,58 @@ namespace Demo_w02c_ColorPicker
                     // copy these properties to the label in the array
                     labels[x, y] = label;
 
-                } // end x
-            } // end y
-        }
+                    }// end x
+                } // end y
+            }
 
 
-        private void DisplaySquares(int numSquares)
-        {
-            for (int y = 0; y < numSquares; y++)
+            private void DisplaySquares(int numSquares)
             {
-                for (int x = 0; x < numSquares; x++)
+                for (int y = 0; y < numSquares; y++)
                 {
-                    this.Controls.Add(Settings.labels[x, y]);
+                    for (int x = 0; x < numSquares; x++)
+                    {
+                        this.Controls.Add(Settings.labels[x, y]);
+                    }
                 }
             }
-        } 
-        
-        private void ResizeForm(int numSquares)
-        {
-            this.Width = 2 * DEF_LAYOUTMARGIN + numSquares * DEF_SQUARESIZE + numSquares * DEF_SPACING;
-            this.Height = this.Width + 2 * DEF_TOPMARGIN;
+
+            private void ResizeForm(int numSquares)
+            {
+                this.Width = 2 * DEF_LAYOUTMARGIN + numSquares * DEF_SQUARESIZE + numSquares * DEF_SPACING;
+                this.Height = this.Width + 2 * DEF_TOPMARGIN;
+            }
+
+            private Color GetForeColor(Color col)
+            {
+                double average = 0.0;
+                average = ((double)col.R + (double)col.G + (double)col.B) / 3.0;
+
+                if (average < 128) return Color.White;
+                else return Color.Black;
+            }
+            #endregion
+
+            #region General Events
+            private void btnGo_Click(object sender, EventArgs e)
+            {
+                ProgWorkFlow((int)this.nudNumSquares.Value);
+            }
+
+            private void btnClear_Click(object sender, EventArgs e)
+            {
+                ClearForm();
+                //TODO: write my Clint comment here
+            }
+
+            #endregion
+
+            private void label_Click(object sender, EventArgs e)
+            {
+                Label lbl = (Label)sender;
+                lbl.BackColor = Tools.RandomColor();
+                lbl.ForeColor = GetForeColor(lbl.BackColor);
+                lbl.Text = "(" + lbl.BackColor.R + "," + lbl.BackColor.G + "," + lbl.BackColor.B + ")";
+            }
         }
-
-        private Color GetForeColor(Color col)
-        {
-            double average = 0.0;
-            average = ((double)col.R + (double)col.G + (double)col.B) / 3.0;
-
-            if (average < 128) return Color.White;
-            else return Color.Black;
-        }
-        #endregion
-
-        #region General Events
-        private void btnGo_Click(object sender, EventArgs e)
-        {
-            ProgWorkFlow((int)this.nudNumSquares.Value);
-        }
-
-        private void btnClear_Click(object sender, EventArgs e)
-        {
-            ClearForm();
-        }
-
-        #endregion
-
-        private void label_Click(object sender, EventArgs e)
-        {
-            Label lbl = (Label)sender;
-            lbl.BackColor = Tools.RandomColor();
-            lbl.ForeColor = GetForeColor(lbl.BackColor);
-            lbl.Text = "(" + lbl.BackColor.R + "," + lbl.BackColor.G + "," + lbl.BackColor.B + ")";
-        }
-    }
-}
+    } 

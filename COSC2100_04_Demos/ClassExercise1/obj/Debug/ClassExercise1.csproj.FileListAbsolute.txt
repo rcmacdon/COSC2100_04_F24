@@ -1,0 +1,10 @@
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\ClassExercise1\bin\Debug\ClassExercise1.exe.config
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\ClassExercise1\bin\Debug\ClassExercise1.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\ClassExercise1\bin\Debug\ClassExercise1.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\ClassExercise1\obj\Debug\ClassExercise1.csproj.AssemblyReference.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\ClassExercise1\obj\Debug\ClassExercise1.frmMain.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\ClassExercise1\obj\Debug\ClassExercise1.Properties.Resources.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\ClassExercise1\obj\Debug\ClassExercise1.csproj.GenerateResource.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\ClassExercise1\obj\Debug\ClassExercise1.csproj.CoreCompileInputs.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\ClassExercise1\obj\Debug\ClassExercise1.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\ClassExercise1\obj\Debug\ClassExercise1.pdb

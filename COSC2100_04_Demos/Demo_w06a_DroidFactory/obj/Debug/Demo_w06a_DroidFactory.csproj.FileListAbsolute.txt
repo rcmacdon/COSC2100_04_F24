@@ -1,0 +1,10 @@
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w06a_DroidFactory\obj\Debug\Demo_w06a_DroidFactory.csproj.AssemblyReference.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w06a_DroidFactory\obj\Debug\Demo_w06a_DroidFactory.frmDroidFactory.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w06a_DroidFactory\obj\Debug\Demo_w06a_DroidFactory.Properties.Resources.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w06a_DroidFactory\obj\Debug\Demo_w06a_DroidFactory.csproj.GenerateResource.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w06a_DroidFactory\obj\Debug\Demo_w06a_DroidFactory.csproj.CoreCompileInputs.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w06a_DroidFactory\bin\Debug\Demo_w06a_DroidFactory.exe.config
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w06a_DroidFactory\bin\Debug\Demo_w06a_DroidFactory.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w06a_DroidFactory\bin\Debug\Demo_w06a_DroidFactory.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w06a_DroidFactory\obj\Debug\Demo_w06a_DroidFactory.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w06a_DroidFactory\obj\Debug\Demo_w06a_DroidFactory.pdb
