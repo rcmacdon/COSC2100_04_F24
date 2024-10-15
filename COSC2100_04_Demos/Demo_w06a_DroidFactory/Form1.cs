@@ -26,14 +26,30 @@ namespace Demo_w06a_DroidFactory
         private void Form1_Load(object sender, EventArgs e)
         {
           
-
-
-            
+            Droid.PopulateDroidList();
+            PopulateDroidList();
+            ResetDroidEntryForm();
         }
 
         private void btnSellDroid_Click(object sender, EventArgs e)
         {
-           
+
+            if (lboxDroids.SelectedIndex > -1)
+            {
+                frmInputBox frm = new frmInputBox("Enter the new owner's name!");
+
+                if (frm.ShowDialog() == DialogResult.OK)
+                {
+                    Droid d = Droid.FindDroid(lboxDroids.SelectedItem.ToString());  
+                    if (d != null)
+                    {
+                        d.SellDroid(frm.InputValue, true);
+                        PopulateDroidList();
+                    }
+                }
+            }
+
+
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -59,6 +75,25 @@ namespace Demo_w06a_DroidFactory
         private void lboxDroids_SelectedIndexChanged(object sender, EventArgs e)
         {
           
+            // Check that something is selected
+            if (lboxDroids.SelectedIndex > -1) 
+            {
+                // which one got selected - gives us the designation
+                String dd = (String)lboxDroids.SelectedItem;
+
+                // iterate through the list of droids to find the right one - return a Droid
+                Droid d = Droid.FindDroid(dd);
+
+                // populate the controls
+                if (d != null) 
+                { 
+                    lblDetailsDesignation.Text = d.Designation;
+                    lblDetailsOwner.Text = d.Owner;
+                    chkDetailsInService.Checked = d.IsInService;
+                    lblDetailsPrimaryColour.BackColor = d.PrimaryColor;
+                    lblDetailsSecondaryColour.BackColor = d.SecondaryColor;
+                }
+            }
         }
 
         private void btnResetDroid_Click(object sender, EventArgs e)
@@ -81,6 +116,8 @@ namespace Demo_w06a_DroidFactory
 
             // update the listbox to show the latest list
             PopulateDroidList();
+
+            ResetDroidEntryForm();
         }
         #endregion
 
@@ -93,6 +130,18 @@ namespace Demo_w06a_DroidFactory
                 lboxDroids.Items.Add(droid.Designation);
             }
         }
+
+        private void ResetDroidEntryForm()
+        {
+            txtDesignation.Text = String.Empty;
+            txtOwner.Text = String.Empty;
+            chkInService.Checked = false;
+            lblPrimaryColour.BackColor = Color.Gray;
+            lblSecondaryColour.BackColor = Color.Gray;
+
+            txtDesignation.Focus();
+        }
+
         #endregion
 
 
