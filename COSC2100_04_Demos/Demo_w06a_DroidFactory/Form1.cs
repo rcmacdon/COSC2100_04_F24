@@ -142,8 +142,17 @@ namespace Demo_w06a_DroidFactory
             txtDesignation.Focus();
         }
 
+
         #endregion
 
-
+        private void btnEditDroid_Click(object sender, EventArgs e)
+        {
+            if (lboxDroids.SelectedIndex > -1 )
+            {
+                frmDroidEditor frm = new frmDroidEditor(lboxDroids.SelectedItem.ToString());
+                frm.ShowDialog();
+                PopulateDroidList();
+            }
+        }
     }
 }

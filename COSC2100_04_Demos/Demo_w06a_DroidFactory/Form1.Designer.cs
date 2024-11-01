@@ -59,6 +59,7 @@ namespace Demo_w06a_DroidFactory
             this.grpSavedDroids = new System.Windows.Forms.GroupBox();
             this.grpCreator = new System.Windows.Forms.GroupBox();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.btnEditDroid = new System.Windows.Forms.Button();
             this.grpDroidDetails.SuspendLayout();
             this.grpSavedDroids.SuspendLayout();
             this.grpCreator.SuspendLayout();
@@ -70,7 +71,7 @@ namespace Demo_w06a_DroidFactory
             this.label2.Location = new System.Drawing.Point(21, 149);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 45);
+            this.label2.Size = new System.Drawing.Size(86, 59);
             this.label2.TabIndex = 6;
             this.label2.Text = "Primary Colour";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -279,7 +280,7 @@ namespace Demo_w06a_DroidFactory
             // 
             this.lblDetailsSecondaryColour.BackColor = System.Drawing.Color.Gray;
             this.lblDetailsSecondaryColour.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblDetailsSecondaryColour.Location = new System.Drawing.Point(184, 208);
+            this.lblDetailsSecondaryColour.Location = new System.Drawing.Point(187, 205);
             this.lblDetailsSecondaryColour.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDetailsSecondaryColour.Name = "lblDetailsSecondaryColour";
             this.lblDetailsSecondaryColour.Size = new System.Drawing.Size(55, 51);
@@ -289,7 +290,7 @@ namespace Demo_w06a_DroidFactory
             // 
             this.lblDetailsPrimaryColour.BackColor = System.Drawing.Color.Gray;
             this.lblDetailsPrimaryColour.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblDetailsPrimaryColour.Location = new System.Drawing.Point(26, 208);
+            this.lblDetailsPrimaryColour.Location = new System.Drawing.Point(29, 205);
             this.lblDetailsPrimaryColour.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDetailsPrimaryColour.Name = "lblDetailsPrimaryColour";
             this.lblDetailsPrimaryColour.Size = new System.Drawing.Size(55, 51);
@@ -297,6 +298,7 @@ namespace Demo_w06a_DroidFactory
             // 
             // grpDroidDetails
             // 
+            this.grpDroidDetails.Controls.Add(this.btnEditDroid);
             this.grpDroidDetails.Controls.Add(this.btnSellDroid);
             this.grpDroidDetails.Controls.Add(this.lblDetailsSecondaryColour);
             this.grpDroidDetails.Controls.Add(this.lblDetailsPrimaryColour);
@@ -320,10 +322,10 @@ namespace Demo_w06a_DroidFactory
             // 
             this.btnSellDroid.BackColor = System.Drawing.Color.Navy;
             this.btnSellDroid.ForeColor = System.Drawing.Color.White;
-            this.btnSellDroid.Location = new System.Drawing.Point(240, 260);
+            this.btnSellDroid.Location = new System.Drawing.Point(189, 260);
             this.btnSellDroid.Margin = new System.Windows.Forms.Padding(4);
             this.btnSellDroid.Name = "btnSellDroid";
-            this.btnSellDroid.Size = new System.Drawing.Size(96, 47);
+            this.btnSellDroid.Size = new System.Drawing.Size(147, 47);
             this.btnSellDroid.TabIndex = 10;
             this.btnSellDroid.Text = "Sell Droid";
             this.btnSellDroid.UseVisualStyleBackColor = false;
@@ -335,7 +337,7 @@ namespace Demo_w06a_DroidFactory
             this.label3.Location = new System.Drawing.Point(167, 149);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 45);
+            this.label3.Size = new System.Drawing.Size(100, 59);
             this.label3.TabIndex = 7;
             this.label3.Text = "Secondary Colour";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -412,6 +414,19 @@ namespace Demo_w06a_DroidFactory
             this.lblTitle.Text = "Droid Factory";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnEditDroid
+            // 
+            this.btnEditDroid.BackColor = System.Drawing.Color.Navy;
+            this.btnEditDroid.ForeColor = System.Drawing.Color.White;
+            this.btnEditDroid.Location = new System.Drawing.Point(8, 260);
+            this.btnEditDroid.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEditDroid.Name = "btnEditDroid";
+            this.btnEditDroid.Size = new System.Drawing.Size(147, 47);
+            this.btnEditDroid.TabIndex = 11;
+            this.btnEditDroid.Text = "Edit Droid";
+            this.btnEditDroid.UseVisualStyleBackColor = false;
+            this.btnEditDroid.Click += new System.EventHandler(this.btnEditDroid_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -472,5 +487,6 @@ namespace Demo_w06a_DroidFactory
         private System.Windows.Forms.GroupBox grpCreator;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Button btnSellDroid;
+        private System.Windows.Forms.Button btnEditDroid;
     }
 }
