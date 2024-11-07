@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_w05a_Collections", "De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_w06a_DroidFactory", "Demo_w06a_DroidFactory\Demo_w06a_DroidFactory.csproj", "{2086F8A6-B52E-440A-A221-773472BBD927}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_w09a_ExceptionHandling", "Demo_w09a_ExceptionHandling\Demo_w09a_ExceptionHandling.csproj", "{FE7F40F7-21A0-46A1-9888-BAAA28FE45F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_09b_FileIO", "Week_09b_FileIO\Week_09b_FileIO.csproj", "{622FAD6E-C71B-4CE6-8C27-72901CC71ECE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{2086F8A6-B52E-440A-A221-773472BBD927}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2086F8A6-B52E-440A-A221-773472BBD927}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2086F8A6-B52E-440A-A221-773472BBD927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE7F40F7-21A0-46A1-9888-BAAA28FE45F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE7F40F7-21A0-46A1-9888-BAAA28FE45F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE7F40F7-21A0-46A1-9888-BAAA28FE45F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE7F40F7-21A0-46A1-9888-BAAA28FE45F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622FAD6E-C71B-4CE6-8C27-72901CC71ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622FAD6E-C71B-4CE6-8C27-72901CC71ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622FAD6E-C71B-4CE6-8C27-72901CC71ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622FAD6E-C71B-4CE6-8C27-72901CC71ECE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
