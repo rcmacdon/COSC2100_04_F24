@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_w09a_ExceptionHandling
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_09b_FileIO", "Week_09b_FileIO\Week_09b_FileIO.csproj", "{622FAD6E-C71B-4CE6-8C27-72901CC71ECE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_w10a_DataBindingPlus", "Demo_Week10a_DataBindingPlus\Demo_w10a_DataBindingPlus.csproj", "{F5FCFD19-A0CB-4576-B87F-72A9CBB00483}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{622FAD6E-C71B-4CE6-8C27-72901CC71ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{622FAD6E-C71B-4CE6-8C27-72901CC71ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{622FAD6E-C71B-4CE6-8C27-72901CC71ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5FCFD19-A0CB-4576-B87F-72A9CBB00483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FCFD19-A0CB-4576-B87F-72A9CBB00483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FCFD19-A0CB-4576-B87F-72A9CBB00483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FCFD19-A0CB-4576-B87F-72A9CBB00483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
