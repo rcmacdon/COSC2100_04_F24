@@ -167,7 +167,7 @@ SELECT employeeID, firstName, lastName, email, phoneNumber, hireDate, jobTitle, 
               <xs:element name="commissionPercent" msprop:Generator_ColumnPropNameInTable="commissionPercentColumn" msprop:Generator_ColumnPropNameInRow="commissionPercent" msprop:Generator_UserColumnName="commissionPercent" msprop:Generator_ColumnVarNameInTable="columncommissionPercent" type="xs:decimal" minOccurs="0" />
               <xs:element name="managerID" msprop:Generator_ColumnPropNameInTable="managerIDColumn" msprop:Generator_ColumnPropNameInRow="managerID" msprop:Generator_UserColumnName="managerID" msprop:Generator_ColumnVarNameInTable="columnmanagerID" type="xs:int" minOccurs="0" />
               <xs:element name="departmentID" msprop:Generator_ColumnPropNameInTable="departmentIDColumn" msprop:Generator_ColumnPropNameInRow="departmentID" msprop:Generator_UserColumnName="departmentID" msprop:Generator_ColumnVarNameInTable="columndepartmentID" type="xs:short" minOccurs="0" />
-              <xs:element name="fullName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="fullName" msprop:Generator_ColumnPropNameInTable="fullNameColumn" msprop:Generator_ColumnPropNameInRow="fullName" msprop:Generator_ColumnVarNameInTable="columnfullName" minOccurs="0">
+              <xs:element name="fullName" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="fullNameColumn" msprop:Generator_ColumnPropNameInRow="fullName" msprop:Generator_UserColumnName="fullName" msprop:Generator_ColumnVarNameInTable="columnfullName" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="46" />
@@ -186,7 +186,7 @@ SELECT employeeID, firstName, lastName, email, phoneNumber, hireDate, jobTitle, 
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="emp_manager_fk" msdata:parent="employees" msdata:child="employees" msdata:parentkey="employeeID" msdata:childkey="managerID" msprop:Generator_UserParentTable="employees" msprop:Generator_UserChildTable="employees" msprop:Generator_RelationVarName="relationemp_manager_fk" msprop:Generator_ChildPropName="GetemployeesRows" msprop:Generator_UserRelationName="emp_manager_fk" msprop:Generator_ParentPropName="employeesRowParent" />
+      <msdata:Relationship name="emp_manager_fk" msdata:parent="employees" msdata:child="employees" msdata:parentkey="employeeID" msdata:childkey="managerID" msprop:Generator_UserParentTable="employees" msprop:Generator_UserChildTable="employees" msprop:Generator_RelationVarName="relationemp_manager_fk" msprop:Generator_ChildPropName="GetemployeesRows" msprop:Generator_ParentPropName="employeesRowParent" msprop:Generator_UserRelationName="emp_manager_fk" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>

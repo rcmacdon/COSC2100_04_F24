@@ -52,6 +52,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>employeeSampleDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="employeeSampleDataSetDept.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>employeeSampleDataSetDept.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="employeeSampleDataSetManagers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>employeeSampleDataSetManagers.xsd</DependentUpon>
+    </Compile>
     <Compile Include="frmDB.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +112,28 @@
     <None Include="employeeSampleDataSet.xss">
       <DependentUpon>employeeSampleDataSet.xsd</DependentUpon>
     </None>
+    <None Include="employeeSampleDataSetDept.xsc">
+      <DependentUpon>employeeSampleDataSetDept.xsd</DependentUpon>
+    </None>
+    <None Include="employeeSampleDataSetDept.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>employeeSampleDataSetDept.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="employeeSampleDataSetDept.xss">
+      <DependentUpon>employeeSampleDataSetDept.xsd</DependentUpon>
+    </None>
+    <None Include="employeeSampleDataSetManagers.xsc">
+      <DependentUpon>employeeSampleDataSetManagers.xsd</DependentUpon>
+    </None>
+    <None Include="employeeSampleDataSetManagers.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>employeeSampleDataSetManagers.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="employeeSampleDataSetManagers.xss">
+      <DependentUpon>employeeSampleDataSetManagers.xsd</DependentUpon>
+    </None>
     <None Include="Properties\DataSources\Demo_Week10a_DataBindingPlus.Classes.Student.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -118,6 +150,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\dnd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color-icon-18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedRing.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

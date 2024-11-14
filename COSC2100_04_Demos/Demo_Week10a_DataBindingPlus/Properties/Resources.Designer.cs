@@ -63,9 +63,29 @@ namespace Demo_Week10a_DataBindingPlus.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap color_icon_18 {
+            get {
+                object obj = ResourceManager.GetObject("color-icon-18", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dnd {
             get {
                 object obj = ResourceManager.GetObject("dnd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RedRing {
+            get {
+                object obj = ResourceManager.GetObject("RedRing", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
