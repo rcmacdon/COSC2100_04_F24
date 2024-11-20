@@ -15,6 +15,11 @@ namespace Demo_Week10a_DataBindingPlus
 
         private frmStudents frmS;
 
+        public frmSplash()
+        {
+            InitializeComponent();
+        }
+
         public frmSplash(frmStudents frm)
         {
             InitializeComponent();

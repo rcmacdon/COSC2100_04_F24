@@ -48,6 +48,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.ssLblCurrentStudent = new System.Windows.Forms.ToolStripStatusLabel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).BeginInit();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -241,11 +242,23 @@
             this.ssLblCurrentStudent.Size = new System.Drawing.Size(76, 25);
             this.ssLblCurrentStudent.Text = "- none -";
             // 
+            // comboBox1
+            // 
+            this.comboBox1.DataSource = this.studentBindingSource;
+            this.comboBox1.DisplayMember = "FullName";
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(526, 58);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(318, 28);
+            this.comboBox1.TabIndex = 16;
+            this.comboBox1.ValueMember = "StudentID";
+            // 
             // frmStudents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(889, 521);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnDB);
             this.Controls.Add(this.btnExit);
@@ -295,6 +308,7 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.BindingSource studentBindingSource;
         private System.Windows.Forms.ToolStripStatusLabel ssLblCurrentStudent;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

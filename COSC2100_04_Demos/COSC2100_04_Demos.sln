@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_09b_FileIO", "Week_09b
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_w10a_DataBindingPlus", "Demo_Week10a_DataBindingPlus\Demo_w10a_DataBindingPlus.csproj", "{F5FCFD19-A0CB-4576-B87F-72A9CBB00483}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_w11a_MoreBindingandEnheritance", "Demo_w11a_MoreBindingandEnheritance\Demo_w11a_MoreBindingandEnheritance.csproj", "{FB4BD515-9F6E-4C17-BCA9-532647FD7AB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{F5FCFD19-A0CB-4576-B87F-72A9CBB00483}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5FCFD19-A0CB-4576-B87F-72A9CBB00483}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5FCFD19-A0CB-4576-B87F-72A9CBB00483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB4BD515-9F6E-4C17-BCA9-532647FD7AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4BD515-9F6E-4C17-BCA9-532647FD7AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4BD515-9F6E-4C17-BCA9-532647FD7AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4BD515-9F6E-4C17-BCA9-532647FD7AB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

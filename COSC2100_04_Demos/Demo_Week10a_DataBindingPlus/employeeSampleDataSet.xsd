@@ -186,7 +186,7 @@ SELECT employeeID, firstName, lastName, email, phoneNumber, hireDate, jobTitle, 
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="emp_manager_fk" msdata:parent="employees" msdata:child="employees" msdata:parentkey="employeeID" msdata:childkey="managerID" msprop:Generator_UserParentTable="employees" msprop:Generator_UserChildTable="employees" msprop:Generator_RelationVarName="relationemp_manager_fk" msprop:Generator_ChildPropName="GetemployeesRows" msprop:Generator_ParentPropName="employeesRowParent" msprop:Generator_UserRelationName="emp_manager_fk" />
+      <msdata:Relationship name="emp_manager_fk" msdata:parent="employees" msdata:child="employees" msdata:parentkey="employeeID" msdata:childkey="managerID" msprop:Generator_UserParentTable="employees" msprop:Generator_UserChildTable="employees" msprop:Generator_RelationVarName="relationemp_manager_fk" msprop:Generator_ChildPropName="GetemployeesRows" msprop:Generator_UserRelationName="emp_manager_fk" msprop:Generator_ParentPropName="employeesRowParent" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>

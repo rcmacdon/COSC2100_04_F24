@@ -1,11 +1,10 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Demo_Week10a_DataBindingPlus
+namespace Demo_w11a_MoreBindingandEnheritance
 {
     internal static class Program
     {
@@ -17,7 +16,7 @@ namespace Demo_Week10a_DataBindingPlus
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmStudents());
+            Application.Run(new frmMain());
         }
     }
 }
