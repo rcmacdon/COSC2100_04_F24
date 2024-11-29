@@ -41,6 +41,8 @@ namespace Demo_w11a_MoreBindingandEnheritance.Classes
         public override string ToString()
         {
             return ManufactureYear.ToString() + ' ' + Make + ' ' + Model;
+
+
         }
     }
     }
