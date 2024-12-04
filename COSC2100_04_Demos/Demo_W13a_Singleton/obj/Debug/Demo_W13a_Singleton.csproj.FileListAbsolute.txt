@@ -1,0 +1,12 @@
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_W13a_Singleton\bin\Debug\Demo_W13a_Singleton.exe.config
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_W13a_Singleton\bin\Debug\Demo_W13a_Singleton.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_W13a_Singleton\bin\Debug\Demo_W13a_Singleton.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_W13a_Singleton\obj\Debug\Demo_W13a_Singleton.csproj.AssemblyReference.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_W13a_Singleton\obj\Debug\Demo_W13a_Singleton.frmMain.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_W13a_Singleton\obj\Debug\Demo_W13a_Singleton.frmSubForm.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_W13a_Singleton\obj\Debug\Demo_W13a_Singleton.Properties.Resources.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_W13a_Singleton\obj\Debug\Demo_W13a_Singleton.csproj.GenerateResource.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_W13a_Singleton\obj\Debug\Demo_W13a_Singleton.csproj.CoreCompileInputs.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_W13a_Singleton\obj\Debug\Demo_W13a_Singleton.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_W13a_Singleton\obj\Debug\Demo_W13a_Singleton.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_W13a_Singleton\obj\Debug\Demo_W13a_Singleton.frmSub2.resources

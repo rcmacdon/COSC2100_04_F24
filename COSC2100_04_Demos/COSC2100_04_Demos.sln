@@ -33,7 +33,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_w12a_DatabaseCompletio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_w12b_MDIForms", "Demo_w12b_MDIForms\Demo_w12b_MDIForms.csproj", "{28A70B79-5052-4EDA-A188-8AA0A7B77328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{ED943C4B-E9AF-4E7E-BB34-B9201AE394EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{ED943C4B-E9AF-4E7E-BB34-B9201AE394EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_W13a_Singleton", "Demo_W13a_Singleton\Demo_W13a_Singleton.csproj", "{D261BE9A-A362-4A0C-8E1B-C5EE9E75B69A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{ED943C4B-E9AF-4E7E-BB34-B9201AE394EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED943C4B-E9AF-4E7E-BB34-B9201AE394EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED943C4B-E9AF-4E7E-BB34-B9201AE394EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D261BE9A-A362-4A0C-8E1B-C5EE9E75B69A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D261BE9A-A362-4A0C-8E1B-C5EE9E75B69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D261BE9A-A362-4A0C-8E1B-C5EE9E75B69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D261BE9A-A362-4A0C-8E1B-C5EE9E75B69A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
