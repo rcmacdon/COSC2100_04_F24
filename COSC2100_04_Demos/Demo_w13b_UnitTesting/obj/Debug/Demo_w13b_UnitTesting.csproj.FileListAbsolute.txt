@@ -1,0 +1,10 @@
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w13b_UnitTesting\bin\Debug\Demo_w13b_UnitTesting.exe.config
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w13b_UnitTesting\bin\Debug\Demo_w13b_UnitTesting.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w13b_UnitTesting\bin\Debug\Demo_w13b_UnitTesting.pdb
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w13b_UnitTesting\obj\Debug\Demo_w13b_UnitTesting.csproj.AssemblyReference.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w13b_UnitTesting\obj\Debug\Demo_w13b_UnitTesting.Form1.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w13b_UnitTesting\obj\Debug\Demo_w13b_UnitTesting.Properties.Resources.resources
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w13b_UnitTesting\obj\Debug\Demo_w13b_UnitTesting.csproj.GenerateResource.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w13b_UnitTesting\obj\Debug\Demo_w13b_UnitTesting.csproj.CoreCompileInputs.cache
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w13b_UnitTesting\obj\Debug\Demo_w13b_UnitTesting.exe
+D:\Dropbox\Courses\COSC2100-OOP2\Demos\COSC2100_04_F24\COSC2100_04_Demos\Demo_w13b_UnitTesting\obj\Debug\Demo_w13b_UnitTesting.pdb
